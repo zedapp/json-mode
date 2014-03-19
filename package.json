@@ -1,0 +1,9 @@
+{
+    "name": "JSON mode",
+    "description": "JSON mode for Zed",
+    "version": "0.1",
+    "files": [
+        "check.js",
+        "json_parse.js"
+    ]
+}

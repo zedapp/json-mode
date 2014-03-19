@@ -1,0 +1,24 @@
+{
+    "modes": {
+        "json": {
+            "name": "JSON",
+            "highlighter": "ace/mode/json",
+            "extensions": ["json"],
+
+            "commands": {
+                "Tools:Beautify": {
+                    "scriptUrl": "/packages/gh/zedapp/javascript-mode/beautify.js"
+                },
+
+                "Tools:Check": {
+                    "scriptUrl": "./check.js",
+                    "internal": true
+                }
+            },
+
+            "handlers": {
+                "check": ["Tools:Check"]
+            }
+        }
+    }
+}
