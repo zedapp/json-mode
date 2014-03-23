@@ -7,11 +7,18 @@
 
             "commands": {
                 "Tools:Beautify": {
-                    "scriptUrl": "/packages/gh/zedapp/javascript-mode/beautify.js"
+                    "scriptUrl": "/default/mode/javascript/beautify.js",
+                    "inputs": {
+                        "text": true,
+                        "preferences": true
+                    }
                 },
 
                 "Tools:Check": {
                     "scriptUrl": "./check.js",
+                    "inputs": {
+                        "text": true
+                    },
                     "internal": true
                 }
             },
