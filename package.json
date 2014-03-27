@@ -1,7 +1,8 @@
 {
     "name": "JSON mode",
+    "uri": "gh:zedapp/json-mode",
     "description": "JSON mode for Zed",
-    "version": "0.1",
+    "version": "0.2",
     "files": [
         "check.js",
         "json_parse.js"
